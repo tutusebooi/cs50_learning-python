@@ -4,7 +4,7 @@ def main():
 def user_input():
     user = input("")
     if user == "Goodbye :(" :
-        x = user.replace(":(" , " 🙁")
+        x = user.replace(":(" , "🙁")
         print(x)
 
     elif user == "Hello :)":
