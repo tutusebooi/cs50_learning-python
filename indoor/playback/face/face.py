@@ -10,7 +10,8 @@ def user_input():
     else:
         return "Hello🙂 Goodbye🙁"
 
-main()
+if__name__ == "__main__":
+    main()
 
 
 
