@@ -13,7 +13,9 @@ def dollars_to_float(d):
 
 def percent_to_float(p):
     # TODO
-    p = d 
+    p = ()
 
 
 main()
+
+(value/total value)×100%.
