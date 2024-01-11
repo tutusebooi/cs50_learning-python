@@ -1,17 +1,19 @@
-def main():
-    user_input()
+
 
 def user_input():
     user = input("enter: ")
-    if user == "Goodbye :( ":
-        print("Goodbye 🙁")
+    '''if user == "Goodbye :( ":
+        return "Goodbye 🙁"
     elif user == "Hello :)":
         return "Hello 🙂"
     else:
-        return "Hello🙂 Goodbye🙁"
+        return "Hello🙂 Goodbye🙁"'''
 
-if__name__ == "__main__":
-    main()
+    if user == "Hello :)":
+        x = user.replace(":)", "🙂")
+        return x
+print(user_input())
+
 
 
 
