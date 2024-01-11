@@ -15,7 +15,7 @@ def percent_to_float(percent):
     if "%" in percent:
         x = percent.replace("%","")
         x = (percent / 100)*dollar
-    return float(x)
+    return x
 
 
 main()
