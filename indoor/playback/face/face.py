@@ -1,4 +1,5 @@
-de
+def main():
+    user_input()
 
 def user_input():
     user = input("enter: ")
@@ -11,9 +12,10 @@ def user_input():
 
     if user == "Hello :)":
         x = user.replace(":)", "🙂")
-        return x
-print(user_input())
+        print(x)
 
+if __name__ == "__main__":
+    main()
 
 
 
