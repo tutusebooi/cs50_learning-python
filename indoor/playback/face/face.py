@@ -7,9 +7,11 @@ def user_input():
         x = user.replace(":(" , "🙁")
         print(x)
 
-    if user == "Hello :)":
+    elif user == "Hello :)":
         x = user.replace(":)", "🙂")
         print(x)
+    else:
+        print("Hello🙂 Goodbye🙁")
 
 if __name__ == "__main__":
     main()
