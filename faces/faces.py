@@ -4,14 +4,14 @@ def main():
 def user_input():
     user = input("enter: ")
     if user == "Goodbye :(" :
-        x = user.replace(":(" , "🙁")
+        x = user.replace(":(" , " 🙁")
         print(x)
 
     elif user == "Hello :)":
-        x = user.replace(":)", "🙂")
+        x = user.replace(":)", " 🙂")
         print(x)
     else:
-        print("Hello🙂 Goodbye🙁")
+        print("Hello 🙂 Goodbye 🙁")
 
 if __name__ == "__main__":
     main()
