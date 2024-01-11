@@ -5,16 +5,14 @@ def main():
     print(f"Leave ${tip:.2f}")
 
 
-def dollars_to_float(d):
+def dollars_to_float(dollars):
     # TODO
-    d = float(dollars)
-    return d
+    return float(dollars)
 
 
-def percent_to_float(p):
+def percent_to_float(percent):
     # TODO
-    p = float(percent)
-    return p
+    return float(percent)
 
 
 main()
