@@ -2,7 +2,7 @@ def main():
     user_input()
 
 def user_input():
-    user = input("enter: ")
+    user = input("")
     if user == "Goodbye :(" :
         x = user.replace(":(" , " 🙁")
         print(x)
