@@ -4,7 +4,7 @@ def main():
 def user_input():
     user = input("enter: ")
     if user == "Goodbye :( ":
-        return "Goodbye 🙁"
+        print("Goodbye 🙁")
     elif user == "Hello :)":
         return "Hello 🙂"
     else:
