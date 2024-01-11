@@ -8,7 +8,7 @@ def user_input():
     elif user == "Hello :)":
         return "Hello 🙂"
     else:
-        return "Hello🙂 Goodbye🙁"'''
+        return "Hello🙂 Goodbye🙁
 
     if user == "Hello :)":
         x = user.replace(":)", "🙂")
