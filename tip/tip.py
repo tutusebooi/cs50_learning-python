@@ -12,7 +12,7 @@ def dollars_to_float(dollars):
 
 def percent_to_float(percent):
     # TODO
-    if "%" in percent:
+   #if "%" in percent:
         #x = percent.replace("%","")
         x = (percent / 100)*dollar
         return x
