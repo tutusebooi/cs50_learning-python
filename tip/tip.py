@@ -7,6 +7,7 @@ def main():
 
 def dollars_to_float(dollars):
     # TODO
+    dollars = dollars.replace("$","")
     return float(dollars)
 
 
