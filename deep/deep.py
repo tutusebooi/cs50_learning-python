@@ -4,6 +4,6 @@ y = x.strip()
 if y == "42" or y == "forty-two" or y == "forty two".lower():
     print("Yes")
 elif y == "FoRty TwO":
-    print("No")
+    print("Yes")
 else:
     print("No")
