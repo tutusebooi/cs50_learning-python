@@ -3,5 +3,7 @@ x = input('what is the answer to the Great Question of Life, the Universe, and E
 y = x.strip()
 if y == "42" or y == "forty-two" or y == "forty two".lower():
     print("Yes")
+elif y == "FoRty TwO":
+    print("No")
 else:
     print("No")
