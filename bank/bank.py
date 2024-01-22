@@ -3,7 +3,7 @@ greeting = input("Greeting: ").lower().strip()
 
 if greeting.startswith("hello"):
     print("$0")
-elif greeting == "Howyoudoing?":
+elif greeting.startswith("How you"):
     print("$20")
 elif greeting == "What's happening?":
     print("$100")
