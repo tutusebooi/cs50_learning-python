@@ -15,4 +15,5 @@ elif user.endswith("txt"):
     print("text/plain")
 elif user.endswith("bin"):
     print("application/octet-stream")
-elif user.is
+elif user.isalpha:
+    print("application/octet-stream")
