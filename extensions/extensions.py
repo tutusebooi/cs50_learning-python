@@ -1,8 +1,8 @@
 user = input("File name: ").strip().lower()
 if user.endswith("gif"):
     print("image/gif")
-#elif user.endswith("jpg"):
-   #print("image/jpg")
+elif user.endswith("jpeg"):
+   print("image/jpeg")
 if user.endswith("jpg"):
     print("image/jpeg")
 elif user.endswith("png"):
