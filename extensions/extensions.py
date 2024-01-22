@@ -1,5 +1,5 @@
 user = input("File name: )
-if user[-3] == "gif":
+if user.endswith("gif"):
     print("image/gif")
-if user[-3] == "jpg":
+if user.endswith("jpg"):
     print("image/jpg")
