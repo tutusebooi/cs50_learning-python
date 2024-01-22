@@ -1,7 +1,7 @@
 
 greeting = input("Greeting: ").lower()
 
-if greeting == "hello":
+if greeting == sta:
     print("$0")
 elif greeting == "How you doing?":
     print("$20")
