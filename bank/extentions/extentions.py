@@ -1,7 +1,5 @@
 user = input("File name: )
-name = user[-3]
-
-if name == "gif":
+if user[-3] == "gif":
     print("image/gif")
-if name == "jpg":
+if user[-3] == "jpg":
     print("image/jpg")
