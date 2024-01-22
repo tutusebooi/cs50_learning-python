@@ -14,4 +14,4 @@ elif user.endswith("zip"):
 elif user.endswith("txt"):
     print("text/plain")
 elif user.endswith("bin"):
-    print("")
+    print("application/octet-stream")
