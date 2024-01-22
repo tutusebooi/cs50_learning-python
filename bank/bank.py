@@ -7,5 +7,4 @@ elif greeting == "How you doing?":
     print("$20")
 elif greeting == "What's happening?":
     print("$100")
-else:
-    print("$100")
+
