@@ -9,3 +9,5 @@ elif user.endswith("png"):
     print("image/png")
 elif user.endswith("pdf"):
     print("application/pdf")
+elif user.endswith("zip"):
+    print("application/zip")
