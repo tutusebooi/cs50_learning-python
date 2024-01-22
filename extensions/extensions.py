@@ -11,3 +11,6 @@ elif user.endswith("pdf"):
     print("application/pdf")
 elif user.endswith("zip"):
     print("application/zip")
+elif user.endswith("txt"):
+    print("text/plain")
+elif user.endswith("")
