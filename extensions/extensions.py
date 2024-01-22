@@ -3,7 +3,7 @@ if user.endswith("gif"):
     print("image/gif")
 #elif user.endswith("jpg"):
    #print("image/jpg")
-if user.endswith("jpeg"):
+if user.endswith("jpg"):
     print("image/jpeg")
 elif user.endswith("png"):
     print("image/png")
@@ -14,4 +14,6 @@ elif user.endswith("zip"):
 elif user.endswith("txt"):
     print("text/plain")
 elif user.endswith("bin"):
+    print("application/octet-stream")
+else:
     print("application/octet-stream")
