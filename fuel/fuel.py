@@ -1,11 +1,28 @@
 
-["1/2","1/3","3/4","4/4"]
 while True:
     try:
-        user_input = input("Fraction: ")
-        if user_input == "1/2":
-            print("50%")
-        elif user_input == "1/3"
+        user_input = int(input("Fraction: "))
+        if user_input == 1/4:
+            print("25%")
+            break
+        elif user_input == 1/2:
+            print("50")
+            break
+        elif user_input == 3/4:
+            print("75%")
+            break
+        elif user_input == 4/4:
+            print("F")
+            break
+        elif user_input == 0/1:
+            print("E")
+            break
+        else:
+            user_input = int(input("Fraction:"))
+    except ValueError :
+        print("ValueError")
+    except ZeroDivisionError:
+        print("ZeroDivisionError")
 
 
 
