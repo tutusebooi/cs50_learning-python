@@ -30,9 +30,9 @@ def fuel_fillup():
     for fuel in user_input:
          if fuel not in [1/4,1/2,3/4,4/4,0/1]:
               user_input = int(input("Fraction:"))
-        if user_input.isalpha():
+        if user_input.isalpha() and user_input == decimal:
          raise ValueError
-    
+
 
 
 
