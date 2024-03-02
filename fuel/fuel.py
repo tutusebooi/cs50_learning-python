@@ -26,7 +26,10 @@ else:
     user_input = int(input("Fraction:"))
 
 def fuel_fillup():
-    user_input = int(input())
+    user_input = int(input(Freacrtion: ))
+    for fuel in user_input:
+         if fuel not in [list]:
+              
 
 
 
