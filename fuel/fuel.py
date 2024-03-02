@@ -26,7 +26,7 @@ else:
     user_input = int(input("Fraction:"))
 
 def fuel_fillup():
-     
+    user_input = int(input())
 
 
 
