@@ -1,11 +1,11 @@
 
-    try:
-        user_input = int(input("Fraction: "))
-        if user_input == 1/4:
-            print("25%")
-            break
-        elif user_input == 1/2:
-            print("50")
+try:
+    user_input = int(input("Fraction: "))
+    if user_input == 1/4:
+        print("25%")
+        break
+    elif user_input == 1/2:
+        print("50")
             break
         elif user_input == 3/4:
             print("75%")
