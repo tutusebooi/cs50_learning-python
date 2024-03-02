@@ -1,5 +1,4 @@
 
-while True:
     try:
         user_input = int(input("Fraction: "))
         if user_input == 1/4:
@@ -25,7 +24,6 @@ while True:
         print("ZeroDivisionError")
 else:
     user_input = int(input("Fraction:"))
-
 
 
 
