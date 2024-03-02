@@ -26,10 +26,11 @@ else:
     user_input = int(input("Fraction:"))
 
 def fuel_fillup():
-    user_input = int(input("fraction" ))
+    user_input = int(input("fraction:" ))
     for fuel in user_input:
          if fuel not in [1/4,1/2,3/4,4/4,0/1]:
               user_input = int(input("Fraction:"))
+        if user_input.is
 
 
 
