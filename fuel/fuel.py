@@ -17,6 +17,8 @@ while True:
         elif user_input == 0/1:
             print("E")
             break
+        elif user_input.isalpha():
+            raise ValueError
         else:
             user_input = int(input("Fraction:"))
     except ValueError :
