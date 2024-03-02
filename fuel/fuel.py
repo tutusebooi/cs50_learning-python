@@ -19,12 +19,12 @@ while True:
             break
         elif user_input.isalpha():
             raise ValueError
-        else:
-            user_input = int(input("Fraction:"))
     except ValueError :
         print("ValueError")
     except ZeroDivisionError:
         print("ZeroDivisionError")
+else:
+    user_input = int(input("Fraction:"))
 
 
 
