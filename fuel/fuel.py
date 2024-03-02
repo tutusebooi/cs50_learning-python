@@ -7,13 +7,13 @@ try:
     elif user_input == 1/2:
         print("50")
             break
-        elif user_input == 3/4:
-            print("75%")
-            break
-        elif user_input == 4/4:
-            print("F")
-            break
-        elif user_input == 0/1:
+    elif user_input == 3/4:
+        print("75%")
+        break
+    elif user_input == 4/4:
+        print("F")
+        break
+    elif user_input == 0/1:
             print("E")
             break
         elif user_input.isalpha():
